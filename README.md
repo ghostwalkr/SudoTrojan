@@ -7,3 +7,8 @@ but it takes the password and writes it to an arbitrary file. It doesn't support
 sudo arguments the script will ignore them or break depending on how they're passed. A possible use for this is if you get access 
 to a *nix system and can write to a sudo user's .bashrc. All you'd have to do is put this in the .bashrc with the other aliases: 
 `alias sudo="./path/to/sudo/trojan.sh"`
+### How it works
+1. Execution
+2. Script uses "read" with the sudo prompt to get the password from the user
+3. Script writes the password to the file specified in the script (/tmp/sudo_password)
+4. Script executes the actual sudo program and runs the sudo command the user intended
