@@ -1,5 +1,6 @@
 # SudoTrojan
 A shell script that behaves like the sudo program
+![program preview](https://media.giphy.com/media/fshK7btzyoqP2hz7TM/giphy.gif)
 
 ## Description
 This is just a little thing I whipped up while I was messing around. It's pretty self expanatory. It behaves like the sudo program 
